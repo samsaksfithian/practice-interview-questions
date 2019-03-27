@@ -69,3 +69,5 @@ function stockOptimizerEmily(stocks) {
 
 const ex1Stocks = [10, 7, 6, 2, 9, 4];
 console.log(`stocks: ${ex1Stocks}\nmaxProfit = ${stockOptimizerBrute(ex1Stocks)}`);
+console.log(`stocks: ${ex1Stocks}\nmaxProfit = ${stockOptimizerLinear(ex1Stocks)}`);
+console.log(`stocks: ${ex1Stocks}\nmaxProfit = ${stockOptimizerEmily(ex1Stocks)}`);
